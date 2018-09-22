@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Demo Vue.js</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+  <main>
+    <div class="sidebar" id="sidebar">
+      <!-- Components for Profile and Contextual Menu -->
+        <div id="profile">
+          <profile></profile>
+        </div>
+
+        <img id="Brand-logo" src="img/logo.png">
+
+        <img id="Profile-logo" src="img/profile.png">
+        <div id="dashmenu">
+          <dash-menu></dash-menu>
+        </div>
+        
+    </div>
+
+    <nav class="navbar" id="navbar">
+      
+      <!-- components for menus -->
+
+      
+      <div id="mainmenu">
+        <main-menu></main-menu>
+      </div>
+      <!-- <div id="minimenu">
+        <mini-menu></mini-menu>
+      </div> -->
+
+      <!-- <h2 id="title-2"> Sales overview </h2> -->
+      
+    </nav>
+    
+    <section class="page" id="page">
+      <!-- components for specific pages -->
+      <!-- <div id="recentMessages">
+        <recent-messages></recent-messages>
+      </div> -->
+      
+      <div id="todo">
+        <todo></todo>
+      </div>
+
+      <h3>Top Salesman</h3>
+
+      <div id="kyle" class="kyle-container">
+        <h3> Kyle Arendse </h3>
+               <br>
+          <p> Target:  50 units
+          	   <br>
+          	   <br>
+              Sales:   47 units
+              <br>
+              <br>
+              Orders:  29 units </p>
+
+              <h3> Daily sales</h3>
+
+               <canvas class="workflow-chart" id="myChart" width="350" height="350"></canvas>
+
+        </div>
+
+
+
+     <div id="cindy" class="cindy-container">
+        <h3> Cindy Williams </h3>
+               <br>
+          <p> Target:  50 units
+          	   <br>
+          	   <br>
+              Sales:   40 units
+              <br>
+              <br>
+              Orders:  23 units </p>
+
+              <h3> Daily sales</h3>
+
+              <canvas class="workflow-chart" id="myChart2" width="400" height="400"></canvas>
+
+        </div>
+
+
+        <div id="alex" class="alex-container">
+        <h3> Alex Samuels </h3>
+           <p> Target:  50 units
+          	   <br>
+          	   <br>
+              Sales:   38 units
+              <br>
+              <br>
+              Orders:  21 units </p>
+
+              <h3> Daily sales</h3>
+
+               <canvas class="workflow-chart" id="myChart3" width="400" height="400"></canvas>
+
+        </div>
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+     <div id="total-sold" class="total-sold-container">
+      <h4> Total Sales for the month</h4>
+      <canvas id="sales-by-day"></canvas>
+      <<!-- canvas id="sales-by-day2"></canvas>
+       <canvas id="sales-by-day3"></canvas> -->
+
+    </div>
+
+ 
+
+
+
+    <div id="total-weekly" class="total-weekly-container">
+      <h4> Sales comparison from previous month</h4>
+      <canvas id="sales-canvas"></canvas>
+    </div>
+
+  
+     
+      <div id="workflow" class="workflow-container">
+        <canvas class="workflow-chart" id="myChart3" width="400" height="400"></canvas>
+     
+     </div>
+   </div>
+
+
+
+
+      <div id="workflow" class="workflow-container">
+        <canvas class="workflow-chart" id="myChart" width="400" height="400"></canvas>
+     
+     </div>
+     </div>
+
+    
+
+      
+      <div id="workflow2" class="workflow-container">
+        <canvas class="workflow-chart" id="myChart2" width="400" height="400"></canvas>
+      </div>
+      <div id="sales" class="sales-container">
+        <canvas id="sales-canvas"></canvas>
+        <canvas id="sales-by-day"></canvas>
+      </div>
+      
+    </section>
+  </main>
+
+  
+  
+  <script src="js/vue.js"></script>
+  <script src="js/profile.js"></script>
+  <script src="js/dashmenu.js"></script>
+  <script src="js/mainmenu.js"></script>
+  <script src="js/minimenu.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/recent-messages.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js" ></script>
+  <script src="js/workflow.js"></script>
+  <script src="js/sales-graph.js"></script> 
+  <script src="js/sales-by-day.js"></script> 
+  
+
+</body>
+</html>
