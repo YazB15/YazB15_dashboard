@@ -1,0 +1,329 @@
+.html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+h1, h2,h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700; }
+
+#main-title{
+  display: flex;
+  justify-content: center;
+  font-family:  'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+#title-2{
+  display: flex;
+  justify-content: center;
+  font-family:  'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; 
+  font-size
+
+}
+  
+
+main {
+  display: block;
+  box-sizing: inherit;
+  width: 100%;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400; }
+  main .navbar {
+    position: fixed;
+    width: 87.5%;
+    height: 100px;
+    top: 0;
+    right: 0;
+    background: #1098ad; }
+    @media only screen and (min-width: 641px) and (max-width: 1024px) {
+      main .navbar {
+        width: 75%; } }
+    @media only screen and (min-width: 0px) and (max-width: 640px) {
+      main .navbar {
+        position: static;
+        width: 100%; } }
+  main .page {
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    margin-left: 12.5%;
+    background: #1098ad;
+    display: flex;
+    flex-wrap: wrap; }
+    @media only screen and (min-width: 641px) and (max-width: 1024px) {
+      main .page {
+        width: 75%;
+        margin-left: 25%;
+        display: flex;
+        flex-wrap: wrap;
+         } }
+
+    @media only screen and (min-width: 0px) and (max-width: 640px) {
+      main .page {
+        width: 100%;
+        margin-left: 0; } }
+
+./*navbar ul.tabs {
+  display: flex;
+  justify-content: center;
+*/
+/*  float: left;*/
+  margin: 0 auto;
+  padding: 15; }
+  .navbar ul.tabs li {
+    display: inline-block;
+    padding: 0;
+    margin: 0; }
+    .navbar ul.tabs li a {
+      color: #fff;
+      background: #333;
+      text-decoration: none; }
+      .navbar ul.tabs li a.active {
+        color: #000;
+        background: #fff; }
+
+#Brand-logo{
+  width: 100%;
+  padding:15px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+#Profile-logo{
+  width: 95px;
+  padding:15px;
+  margin: 5px auto;
+  display:flex;
+  justify-content: center;
+}
+.sidebar {
+  display: block;
+  position: fixed;
+  width: 12.5vw;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #15aabf;
+  box-sizing: inherit; }
+  @media only screen and (min-width: 641px) and (max-width: 1024px) {
+    .sidebar {
+      width: 25%; } }
+  @media only screen and (min-width: 0px) and (max-width: 640px) {
+    .sidebar {
+      position: static;
+      width: 100%; } }
+  .sidebar .dash-menu {
+    display: block;
+    box-sizing: inherit;
+    margin: 25px 0;
+    padding: 0;
+    width: 100%; }
+    .sidebar .dash-menu h3 {
+      display: block;
+      box-sizing: inherit;
+      font-family: "Roboto Slab", serif;
+      font-size: 16pt;
+      font-weight: 700;
+      color: #fff;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #fff; }
+      @media only screen and (min-width: 641px) and (max-width: 1024px) {
+        .sidebar .dash-menu h3 {
+          font-size: 12pt; } }
+      @media only screen and (min-width: 0px) and (max-width: 640px) {
+        .sidebar .dash-menu h3 {
+          font-size: 10pt; } }
+    .sidebar .dash-menu ul {
+      display: block;
+      box-sizing: inherit;
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      .sidebar .dash-menu ul li {
+        display: block;
+        box-sizing: inherit;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #fff; }
+        .sidebar .dash-menu ul li a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 10pt; }
+          .sidebar .dash-menu ul li a i.fa {
+            float: right;
+            margin-top: 6px; }
+
+.workflow-container {
+  display: block;
+  box-sizing: border-box;
+  width: 350px;
+  height: 350px; }
+
+  .workflow-container canvas {
+    display: block;
+    position: static; }
+
+
+#workflow2{
+  /*float: right*/
+}
+
+.btn {
+  border: none;
+  font-weight: 400;
+  font-size: 10pt;
+  box-shadow: none;
+  padding: 4px 8px; }
+  .btn.success {
+    color: #fff;
+    background: #29930f; }
+    .btn.success:hover {
+      background: #2faa11; }
+    .btn.success:active {
+      background: #1c650a; }
+  .btn.danger {
+    color: #fff;
+    background: #a70000; }
+    .btn.danger:hover {
+      background: #c10000; }
+    .btn.danger:active {
+      background: #740000; }
+  .btn.default {
+    color: #fff;
+    background: #499cb5; }
+    .btn.default:hover {
+      background: #428ca3; }
+    .btn.default:active {
+      background: #244e5a; }
+
+
+
+#Employee-1{
+  display: block;
+  background-color: white;
+}
+
+
+
+#sales-by-day{
+ ;
+}
+
+
+
+.total-sold-container{
+  width: 650px;
+  /*height: 447px;*/
+  padding: 35px;
+  margin: 35px ;
+  background-color: #15aabf;
+}
+
+
+.total-weekly-container{
+  width: 650px;
+  /*height: 447px;*/
+  padding: 35px;
+  margin: 35px ;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #15aabf;
+  float: left;
+}
+
+
+h4{
+  color: whitesmoke;
+  font-family: "Ubuntu" sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  color: #1971c2;
+  font-family: "Ubuntu" sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.sales-overview-container{
+  width: 445px;
+  /*height: 447px;*/
+  padding: 10px;
+  margin: 35px ;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  background-color: #15aabf;
+  /*float: left;*/
+}
+
+.kyle-container{
+  width: 350px;
+  height: 650px;
+  perspective: 10px;
+  margin: 35px;
+  padding: 25px;
+  background-color:#15aabf;
+  }
+
+
+  .cindy-container{
+  width: 350px;
+  height: 650px;
+  perspective: 10px;
+  margin: 35px;
+  padding: 25px;
+  background-color:#15aabf;
+  }
+
+
+  .alex-container{
+  width: 350px;
+  height: 650px;
+  perspective: 10px;
+  margin: 35px;
+  padding: 25px;
+  background-color:#15aabf;
+  }
+  .sold-container{
+  width: 250px;
+  height: 150px;
+  perspective: 10px;
+  margin: 25px;
+  background-color:#15aabf;
+  }
+
+  p{
+    font-family: "Ubuntu" sans-serif;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 20px;
+    
+  } 
+
+
+
+
+
+
+
+}
